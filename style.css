@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    background-image: url(./coronavirus_seguros_1600x900.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-color: #ff0000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #007bffc7;
+    color: #ffffff;
+    padding: 10px 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  
+  nav h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 10px 0;
+    padding: 0;
+  
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  nav a span {
+    margin: 0 auto;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.856); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 20px auto;
+  
+  }
+  
+  .container p {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .container_div {
+    margin: 10px 10px;
+    text-align: left;
+  }
+  
+  .container_div_enviar {
+    text-align: center;
+  }
+  
+  /* Estilos para etiquetas y entradas de texto */
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .input {
+    background-color: #ffffff38;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  /* Estilo para el botón */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  .container p {
+    text-align: center;
+  }
+  /* Estilo para el selector */
+  #my-select {
+    background-color: #ffffff38;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Estilo para el mensaje de valor del seguro */
+  #valorSeguroTexto {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  footer {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .active {
+    background-color: #0056b3;
+  }

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h1>Mi sitio web</h1>
+      <ul>
+        <li><a  id= "inicio" href="#"><span>Inicio</span></a></li>
+        <li><a id= "acercade" href="#"><span>Acerca de</span></a></li>
+        <li><a class="active" href="#"><span>Contacto</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <form>
+    <div class="container">
+      <p>Solicitud de Contacto</p>
+      <div class="container_div">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" placeholder="Nombre" class="input">
+      </div>
+      <div class="container_div">
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" placeholder="Apellido" class="input">
+      </div>
+      <div class="container_div">
+        <label for="dni">D.N.I: </label>
+        <input type="text" name="dni" placeholder="DNI" class="input">
+      </div>
+      <div class="container_div">
+        <label for="mail">Mail: </label>
+        <input type="text" name="mail" placeholder="Mail" class="input">
+      </div>
+      <div class="container_div">
+        <label for="telefono">Telefono: </label>
+        <input type="text" name="telefono" placeholder="Telefono" class="input">
+      </div>
+      <div class="container_div">
+        <label for="">Tipo de Seguros</label>
+        <select id="my-select">
+          <option disabled selected="">Seleccione un Tipo de Seguro</option>
+          <option value="500">Basico</option>
+          <option value="1000">Intermedio</option>
+          <option value="1500">Premium</option>
+        </select>
+      </div>
+      <p id="valorSeguroTexto"></p>
+      <div class="container_div_enviar">
+        <button>Enviar Solicitud</button>
+      </div>
+    </div>
+  </form>
+
+  <script src="./script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+</body>
+
+</html>
